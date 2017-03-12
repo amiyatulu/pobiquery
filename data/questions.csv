@@ -1,0 +1,39 @@
+question,image
+"<p>Decide if each of the following is an example of inductive or deductive reasoning.</p>
+<ol>
+<li>All flying birds and insects have wings. Birds and insects flap their wings as they move through the air. Therefore, wings enable flight.</li>
+<li>Insects generally survive mild winters better than harsh ones. Therefore, insect pests will become more problematic if global temperatures increase.</li>
+<li>Chromosomes, the carriers of DNA, separate into daughter cells during cell division. Therefore, DNA is the genetic material.</li>
+<li>Animals as diverse as humans, insects, and wolves all exhibit social behavior. Therefore, social behavior must have an evolutionary advantage.</li>
+</ol>",reasoning.jpg
+"<p>Which of the following statements is false?</p>
+<ol>
+<li>Tissues exist within organs which exist within organ systems.</li>
+<li>Communities exist within populations which exist within ecosystems.</li>
+<li>Organelles exist within cells which exist within tissues.</li>
+<li>Communities exist within ecosystems which exist in the biosphere.</li>
+</ol>",organization.jpg
+"<p>The first forms of life on Earth were ________.</p>
+<ol>
+<li>plants</li>
+<li>microorganisms</li>
+<li>birds</li>
+<li>dinosaurs</li>
+</ol>",
+"<p>Which of the following sciences is not considered a natural science?</p>
+<ol>
+<li>biology</li>
+<li>astronomy</li>
+<li>physics</li>
+<li>computer science</li>
+</ol>",
+"<p>Although the scientific method is used by most of the sciences, it can also be applied to everyday situations. Think about a problem that you may have at home, at school, or with your car, and apply the scientific method to solve it.</p>",
+"<p>Which of the following sequences represents the hierarchy of biological organization from the most inclusive to the least complex level?</p>
+<ol>
+<li>organelle, tissue, biosphere, ecosystem,<br>
+population</li>
+<li>organ, organism, tissue, organelle, molecule</li>
+<li>organism, community, biosphere, molecule, tissue, organ</li>
+<li>biosphere, ecosystem, community, population, organism</li>
+</ol>",
+"<p> The Arrhenius Equation: $$ k = Ae^{-E/RT} $$ </p> <p> Identify the Activation Energy, Exponential factor and Frequency factor.",

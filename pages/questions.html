@@ -1,0 +1,62 @@
+ <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+</script>
+<script type="text/javascript" async
+  src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+<div class="container">
+  <h2>Questions</h2>
+  <!-- <h5>Refresh page in case of rendering error </h5> -->
+  <form class="form-horizontal">
+     <div class="form-group">
+      <label class="control-label col-sm-1" for="rollno">Roll No/ Username:</label>
+      <div class="col-sm-11">
+        <input type="rollno" ng-model="rollno" class="form-control" id="rollno" placeholder="Enter Roll No or Username">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-1" for="email">Email:</label>
+      <div class="col-sm-11">
+        <input type="email" ng-model="email" class="form-control" id="email" placeholder="Enter email">
+      </div>
+    </div>
+    <div class="form-group">
+      <label class="control-label col-sm-1" for="name">Name:</label>
+      <div class="col-sm-11">          
+        <input type="name" ng-model="name" class="form-control" id="name" placeholder="Name">
+      </div>
+    </div>
+  
+
+    <div ng-repeat="que in questions">  
+    <div class="form-group">
+    <label class="control-label col-sm-1" for="Question">Question {{$index + 1}}:</label>
+    <div class="col-sm-11" ng-show="que[1]" ><img  src="data/{{que[1]}}"></div>
+    <div class="col-sm-11" ng-show="que[0]" ng-bind-html="que[0] | sanitize"> </div>
+    </div>
+    <div class="form-group">
+    <label class="control-label col-sm-1" for="answer">Answer:</label>
+    <div class="col-sm-11">          
+        <textarea class="form-control" rows="5" type="answer" ng-model="answer[$index + 1]" class="form-control" placeholder="Answer"> </textarea>
+      </div>
+    </div>
+    </div>
+
+     
+      <div class="form-group">
+    <label class="control-label col-sm-1" for="jsoncopy">Copy Json:</label>
+      <div class="col-sm-11">
+       <textarea class="form-control" rows="5">{{ renderJson()}}</textarea>
+       </div>
+       </div>
+          <div class="form-group">        
+      <div class="col-sm-offset-1 col-sm-11">
+       <button  class="btn" ng-click="saveJSON()" class="btn btn-default" ng-href="{{ url }}">Export to JSON</button>
+       </div>
+       
+      </div>
+    
+
+  
+  </form>
+</div>

@@ -1,0 +1,16 @@
+body {
+  padding-top: 10px;
+}
+nav {
+  font-size: 0.8em;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+p, li{
+  padding-top:10px;
+  padding-bottom:10px;
+  text-align: left;
+  font-size: 1.3em;
+}
