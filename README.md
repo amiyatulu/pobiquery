@@ -8,7 +8,7 @@ Upload the Single page application in IPFS and get the link
 
 Demo:
 
-https://gateway.ipfs.io/ipfs/QmatP98LC7XXDD1fvn37dp6yLMsK9T5SW1hnGCqHvKQF2V/
+https://rebrand.ly/demo_probiquery
 
 Email: amiyatulu@gmail.com
 
