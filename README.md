@@ -19,4 +19,4 @@ question_to_json.py file will generate a questions.json file by taking data from
 
 Supports latex and html
 
-Youtube Tutorial: https://youtu.be/L6U64W8mYtw
+Youtube Tutorial: https://youtu.be/JUQSloWopso
