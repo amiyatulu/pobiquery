@@ -23,8 +23,13 @@ myApp.config(function($routeProvider){
 
 });
 
-myApp.controller('mainController', ['$scope', '$log','$http',
-function($scope, $log, $http) {
+   
+myApp.controller('mainController', ['$scope', '$log','$http','$rootScope',
+function($scope, $log, $http, $rootScope) {
+     $rootScope.$watch(function(){
+         MathJax.Hub.Queue(["Typeset",MathJax.Hub]);
+         return true;
+      });
     $scope.questions = "";
     $http.get('data/questions.json').success(function(data) {
       $scope.questions = data;
